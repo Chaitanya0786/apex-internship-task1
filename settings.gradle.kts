@@ -4,7 +4,6 @@ pluginManagement {
         google()
         mavenCentral()
     }
-
     plugins {
         id("com.android.application") version "8.4.0"
         id("org.jetbrains.kotlin.android") version "1.9.23"
@@ -18,5 +17,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "MyFirstInternApp"
 include(":app")
